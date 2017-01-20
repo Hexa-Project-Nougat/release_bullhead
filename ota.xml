@@ -38,5 +38,5 @@
   <DonateURL nil="true"/>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>Testing</Changelog>
+  <Changelog>Initial ROM for Bullhead</Changelog>
 </ROM>
