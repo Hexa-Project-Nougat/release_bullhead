@@ -4,11 +4,11 @@
   <RomName>
 	  <![CDATA[ Hexa-Project-Bullhead ]]>
   </RomName>
-  <VersionName>Initial</VersionName>
+  <VersionName>Second-BULLHEAD</VersionName>
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">20170120</VersionNumber>
+  <VersionNumber type="integer">20170122</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
@@ -16,7 +16,7 @@
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
   <DirectUrl>
-	  <![CDATA[https://github.com/Hexa-Project/release-hexa/releases/download/Alpha-N2/hexa-14.1-20170117-UNOFFICIAL-shamu.zip]]>
+	  <![CDATA[https://github.com/Hexa-Project/release_bullhead/releases/download/Second_release/hexa-14.1-20170122-UNOFFICIAL-bullhead.zip]]>
   </DirectUrl>
   <HttpUrl nil="true" />
   <!-- What version are you issuing? -->
@@ -28,7 +28,7 @@
   <CheckMD5 nil="true" />
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">562444228</FileSize>
+  <FileSize type="integer">444846865</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
   <Developer>
@@ -38,5 +38,12 @@
   <DonateURL nil="true"/>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>Initial ROM for Bullhead</Changelog>
+  <Changelog>
+	  <![CDATA[ Up-To-Date with Lineage OS <br />
+	  THIS IS ONLY FOR BULLHEAD(Nexus5X) CHECK ROMFILE NAME!!!! <br />
+	  Fixed: StatusBar Carrier Settings 'looks ugly' <br />
+	  Fixed: NetworkSettings: Return of inactivity Threshold <br />
+	  Fixed: Lockscreen Clock: Fix clock size when reboot. <br />
+	  Fixed: SmarBar Settings: you can configure your settings now.]]>
+</Changelog>
 </ROM>
