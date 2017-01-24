@@ -8,7 +8,7 @@
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">20170122</VersionNumber>
+  <VersionNumber type="integer">20170124</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
@@ -16,7 +16,7 @@
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
   <DirectUrl>
-	  <![CDATA[https://github.com/Hexa-Project/release_bullhead/releases/download/Second_release/hexa-14.1-20170122-UNOFFICIAL-bullhead.zip]]>
+	  <![CDATA[https://github.com/Hexa-Project/release_bullhead/releases/download/3rd_release/hexa-14.1-20170124-UNOFFICIAL-bullhead.zip]]>
   </DirectUrl>
   <HttpUrl nil="true" />
   <!-- What version are you issuing? -->
@@ -41,9 +41,13 @@
   <Changelog>
 	  <![CDATA[ Up-To-Date with Lineage OS <br />
 	  THIS IS ONLY FOR BULLHEAD(Nexus5X) CHECK ROMFILE NAME!!!! <br />
-	  Fixed: StatusBar Carrier Settings 'looks ugly' <br />
-	  Fixed: NetworkSettings: Return of inactivity Threshold <br />
-	  Fixed: Lockscreen Clock: Fix clock size when reboot. <br />
-	  Fixed: SmarBar Settings: you can configure your settings now.]]>
+	  * Up-To-Date(Merged) with LineageOS
+* Add Custom LCD Density Pixel Option
+* Task Manger Customization + Switch
+* Custom Header Image
+* Recents: Add omnirom and add switch to override aosp's one
+* Lockscreen: Charging Info(Current-Voltegae, Temperature)
+* SmarBar Color Settings
+* SmartBar One Handed Mode toggle]]>
 </Changelog>
 </ROM>
